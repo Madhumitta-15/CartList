@@ -6,8 +6,14 @@ import { initializeApp } from "firebase/app";
 import { getDatabase, ref, push, onValue, remove } from "firebase/database";
 
 const firebaseConfig = {
+    apiKey: "AIzaSyDV-f9ZLFo4rhN1VYvsRvHjygduw7B6ysc",
+    authDomain: "cartlist-ebca8.firebaseapp.com",
     databaseURL: "https://cartlist-ebca8-default-rtdb.asia-southeast1.firebasedatabase.app",
-};
+    projectId: "cartlist-ebca8",
+    storageBucket: "cartlist-ebca8.appspot.com",
+    messagingSenderId: "398863873610",
+    appId: "1:398863873610:web:ec9e2407f2da0d54e9d8b3"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
