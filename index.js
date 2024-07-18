@@ -26,7 +26,7 @@ let addBtn = document.getElementById("add-button");
 const cartList = document.getElementById("cart-list");
 
 // Add item to cart
-addBtn.addEventListener("click", function() {
+addBtn.addEventListener('click', function() {
     let inputVal = inputEl.value;
     push(cartVal, inputVal);
     clearInput();
